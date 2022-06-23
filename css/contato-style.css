@@ -1,10 +1,10 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 
 /* Nav */
-
 .menu{
     width: 100%;
     height: 50px;
@@ -60,7 +60,6 @@ label[for="bt-menu"]{
 label[for="bt-menu"]{
     display: none;
 }
-
 @media(max-width:800px){
 
     label[for="bt-menu"]{
@@ -93,21 +92,95 @@ label[for="bt-menu"]{
     }
 }
 
-/* Header */
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(72deg, cyan 1%, purple 99%);
+}
 
-header{
+
+.content{
+    margin-top: 70px;
+    height: 400px;
+    width: 800px;
+    border-radius: 0px 0px 20px 20px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: solid 1px #222;
+}
+
+.navigation{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+
+.bar{
+    width: 70px;
+    height: 17px;
+    border: 1px solid white;
+    color: greenyellow;
+    background-color: #222;
+    margin: 2px;
+    border-radius: 2%;
+    cursor: pointer;
+}
+
+input{
+    display: none;
+}
+.slides{
+    display: flex;
+    width: 800%;
+    height: 100%;
+}
+.slide{
+    width: 20%;
+    transition: .6s;
+}
+.slide img{
     width: 100%;
-    height: 50vh;
+    height: 100%;
+}
+
+
+#slide1:checked ~.s1{
+    margin-left: 0;
+}
+#slide2:checked ~.s1{
+    margin-left: -15%;
+}
+#slide3:checked ~.s1{
+    margin-left: -35%;
+}
+#slide4:checked ~.s1{
+    margin-left: -60%;
+}
+#slide5:checked ~.s1{
+    margin-left: -80%;
+}
+#slide6:checked ~.s1{
+    margin-left: -100%;
+}#slide7:checked ~.s1{
+    margin-left: -120%;
+}
+#slide8:checked ~.s1{
+    margin-left: -142%;
+}
+
+/* Cabeçario */
+
+header.contato{
+    margin: 20px;
     background-color: #222;
-    text-align: center;
     color: white;
-    
-}
-header img{
-    background-color: #222;
-    width: 220px;
-    height: 220px;
-    border-radius: 50%;
-    float: right;
-    margin-right: 200px;
-}
+    width: 80%;
+    text-align: center;
+    margin: 20px auto;
