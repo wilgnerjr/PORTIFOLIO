@@ -18,6 +18,7 @@ body{
 }
 .img_logo_header{
     width: 45px;
+    border-radius: 30%;
 }
 .header,
 .navigation_header{
