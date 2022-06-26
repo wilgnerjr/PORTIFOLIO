@@ -71,26 +71,34 @@ body{
     width: 100%;
     height: 150px;
     /* background-color: var(--color-purple); */
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    justify-content: space-between;
 }
 
 .a1 img{
-    width: 13%;
-    height: 100%;
+    width: 15%;
+    height: 110%;
     border-radius: 30%;
-    margin: 15px 0px;
+    margin: auto;
+    float: right;
 }
 
 .a1 h1{
     font-size: 2.5em;
     text-align: center;
+    margin: auto;
 }
 
-
-
-
-
-
-
+.apresentcao{
+    width: 640px;
+    height: 100%;
+    text-align: justify;
+    padding: 15px;
+    margin-left: 85px;
+    
+}
 
 
 @media screen and (max-width: 768px) {
@@ -113,6 +121,7 @@ body{
         height: 100%;
         border-radius: 30%;
         margin: 15px 0px;
+        float: none;
     }
 }
 @keyframes showSidebar {
