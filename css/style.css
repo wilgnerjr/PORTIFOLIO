@@ -15,6 +15,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--color-dark1);
     color: var(--color-white);
+    padding: 0px 0px 0px 0px;
 }
 .img_logo_header{
     width: 45px;
@@ -38,7 +39,7 @@ body{
     z-index: 2;
 }
 .content{
-    padding-top: 2em;
+    padding-top: 25px;
     text-align: center;
     height: 100vh;
     transition: 1s;
@@ -65,40 +66,77 @@ body{
     display: none;
 }
 
- /* principal */
+/* conteudo */
 
-.a1{
-    width: 100%;
-    height: 150px;
-    /* background-color: var(--color-purple); */
-    display: flex;
-    align-items: center;
-    padding: 0px;
-    justify-content: space-between;
-}
 
-.a1 img{
-    width: 15%;
-    height: 110%;
-    border-radius: 30%;
-    margin: auto;
-    float: right;
-}
-
-.a1 h1{
-    font-size: 2.5em;
-    text-align: center;
-    margin: auto;
-}
-
-.apresentcao{
-    width: 640px;
+.content{
+    max-width: 800px;
+    min-width: 320px;
     height: 100%;
-    text-align: justify;
-    padding: 15px;
-    margin-left: 85px;
-    
+    background-color: #fff;
+    color: black;
+    margin: auto;
+    border-radius: 25px;
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
 }
+.content img{
+    width: 35%;
+    margin: 50px;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+.content p{
+    text-align: justify;
+    padding: 25px;
+    font-weight: bold;
+    font-size: 1.3em;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px black;
+    margin: 25px;
+}
+.content h2{
+    width: 130px;
+    text-align: left;
+    margin-left: 25px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px black;
+}
+
+footer{
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 25px;
+    background-color: #b040ff;
+    color: var(--color-dark4);
+    margin-top: 5px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width: 768px) {
@@ -115,13 +153,6 @@ body{
     }
     .btn_icon_header{
         display: block;
-    }
-    .a1 img{
-        width: 35vw;
-        height: 100%;
-        border-radius: 30%;
-        margin: 15px 0px;
-        float: none;
     }
 }
 @keyframes showSidebar {
