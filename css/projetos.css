@@ -64,6 +64,25 @@ body{
     cursor: pointer;
     display: none;
 }
+
+footer {
+    width: 99%;
+    background-color: var(--color-purple);
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    border: 2px solid black;
+}
+footer p{
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    
+}
+
 @media screen and (max-width: 768px) {
     .navigation_header{
         position: absolute;
@@ -75,6 +94,9 @@ body{
         padding: 1em;
         animation-duration: 1s;
         margin-left: -100vw;
+    }
+    .content{
+        height: 87vh;
     }
     .btn_icon_header{
         display: block;

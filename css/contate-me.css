@@ -141,17 +141,23 @@ body{
 }
 
 
-footer{
-    width: 100px;
-    width: 100%;
+footer {
+    width: 99%;
     background-color: var(--color-purple);
     color: black;
     font-size: 1.5em;
     font-weight: bold;
     text-align: center;
+    align-items: center;
     border: 2px solid black;
 }
-
+footer p{
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    
+}
 
 
 @media screen and (max-width: 768px) {
@@ -168,6 +174,10 @@ footer{
     }
     .content{
         height: 87vh;
+    }
+    .geral{
+        margin: 80px;
+        padding: 100px;
     }
     .btn_icon_header{
         display: block;
