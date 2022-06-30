@@ -83,7 +83,9 @@ footer p{
     width: 100%;
     
 }
-
+h1{
+    color: red;
+}
 @media screen and (max-width: 768px) {
     .navigation_header{
         position: absolute;
