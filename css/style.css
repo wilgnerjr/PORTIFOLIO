@@ -23,6 +23,7 @@ body{
     overflow-x: hidden;
     
 }
+
 .intro{
     background-color: var(--color-white);
     border-radius: 25px;
@@ -62,7 +63,7 @@ body{
     padding-top: 25px;
     text-align: center;
     height: 100vh;
-    transition: 1s;
+    transition: 1.5s;
 }
 .navigation_header a{
     text-decoration: none;
