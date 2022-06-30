@@ -12,12 +12,17 @@
     padding: 0;
 }
 body{
+    width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--color-dark1);
     color: var(--color-white);
+    padding: 0px;
+    align-items: center;
+    text-align: center;
+    margin: auto;
 }
 .img_logo_header{
-    width: 45px;
+    width: 50px;
     border-radius: 30%;
 }
 .header,
@@ -29,19 +34,14 @@ body{
 .header{
     background-color: var(--color-dark2);
     justify-content: space-between;
-    padding: 0 10%;
+    padding: 0 5%;
     height: 3.5em;
     box-shadow: 1px 1px 4px var(--color-dark4);
+    margin: auto;
 }
 .navigation_header{
-    gap: 3em;
+    gap: 3.5em;
     z-index: 2;
-}
-.content{
-    padding-top: 5em;
-    text-align: center;
-    height: 100vh;
-    transition: 1s;
 }
 .navigation_header a{
     text-decoration: none;
@@ -65,23 +65,58 @@ body{
     display: none;
 }
 
-footer {
-    width: 99%;
-    background-color: var(--color-purple);
+.content>h1{
+    color: #b040ff;
+}
+.content{
+    height: 200px;
+    background-color: aqua;
+}
+
+
+/* main */
+
+.projetos{
+    max-width: 800px;
+    min-width: 320px;
+    display: flex;
+    max-width: 800px;
+    text-align: center;
+    margin: 0px auto 18%;
+    padding-bottom: 30px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    transition: 2s;
+}
+
+.proeto{
     color: black;
-    font-size: 1.5em;
-    font-weight: bold;
-    text-align: center;
+    width: 50%;
+    height: 50%;
+    background-color: blue;
+}
+/* footer */
+
+.content>footer.d1 {
+    height: 25px;
+    background-color: var(--color-dark4);
     align-items: center;
+    padding: 10px;
     border: 2px solid black;
+    box-shadow: 2px 2px 2px black;
+    margin: 0px;
 }
-footer p{
+
+.content>footer.d1 p{
+    color: white;
     margin: auto;
-    align-items: center;
-    text-align: center;
     width: 100%;
-    
-}
+    align-items: center;
+    margin: auto;
+    font-size: 1.3em;
+    font-weight: bold;
+ }
 
 @media screen and (max-width: 768px) {
     .navigation_header{
