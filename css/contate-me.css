@@ -81,12 +81,12 @@ body{
 }
 
  .content>h1{
-    width: 300px;
     font-size: 2em;
     margin: 50px auto;
     font-weight: bold;
     border: 2px solid var(--color-purple);
     border-radius: 20px;
+    padding: 10px;
 }
 
 
@@ -187,16 +187,6 @@ body{
         animation-duration: 1s;
         margin-left: -100vw;
     }
-    /* .opcoes{
-        height: 100%;
-    } */
-    /* .geral{
-        margin: 80px;
-        padding: 100px;
-    } */
-    .btn_icon_header{
-        display: block;
-    }
     .opcao1{
         margin: 20px;
     }
@@ -215,13 +205,16 @@ body{
     .opcao6{
         margin: 20px;
     }
+    .content{
+        height: 87vh;
+    }
+    .btn_icon_header{
+        display: block;
+    }
 }
 @keyframes showSidebar {
     from {margin-left: -100vw;}
     to {margin-left: -10vw;}
 }
-
-
-
 
 
