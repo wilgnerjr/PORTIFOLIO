@@ -19,9 +19,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--color-dark1);
     color: var(--color-white);
-    padding: 0px 0px 0px 0px;
-    /* overflow-x: hidden; */
-    
+    padding: 0px 0px 0px 0px;    
 }
 
 .intro{
@@ -29,7 +27,6 @@ body{
     border-radius: 25px;
     max-width: 800px;
     min-width: 320px;
-    /* height: 100%; */
     color: black;
     margin: auto;
     padding-top: 30px;
@@ -116,6 +113,8 @@ body{
     box-shadow: 2px 2px 2px black;
 }
 
+/* FOOTER */
+
 footer.d1 {
     height: 25px;
     background-color: var(--color-dark4);
@@ -136,15 +135,6 @@ footer.d1 {
     font-size: 1.3em;
     font-weight: bold;
  }
-
-
-
-
-
-
-
-
-
 
 
 

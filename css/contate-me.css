@@ -21,6 +21,10 @@ body{
     text-align: center;
     margin: auto;
 }
+.content{
+    text-align: center;
+    transition: 1s;
+}
 .img_logo_header{
     width: 50px;
     border-radius: 30%;
@@ -64,8 +68,6 @@ body{
     cursor: pointer;
     display: none;
 }
-
-
 .opcoes{
     max-width: 800px;
     min-width: 320px;
@@ -96,61 +98,28 @@ body{
     background-color: #25D366;
     border: 1px solid black;
     align-items: center;
-    border-radius: 5%;
+    border-radius: 20px;
     color: var(--color-white);
     font-weight: bold;
+    box-shadow: 2px 2px 2px black;
 }
-.opcao2{
-    width: 100px;
-    height: 100px;
+#p2{
     background-color:  #0088CC;
-    border: 1px solid black;
-    align-items: center;
-    border-radius: 5%;
-    color: var(--color-white);
-    font-weight: bold;
 }
-.opcao3{
-    width: 100px;
-    height: 100px;
+#p3{
     background-color: black;
-    border: 1px solid black;
-    align-items: center;
-    border-radius: 5%;
-    color: var(--color-white);
-    font-weight: bold;
 }
-.opcao4{
-    width: 100px;
-    height: 100px;
-    background-color: rgb(255, 255, 255);
-    border: 1px solid black;
-    align-items: center;
-    border-radius: 5%;
-    color: var(--color-white);
-    font-weight: bold;
+#p4{
+    background-color: white;
+}
+#p5{
+    background-color: black;
+}
+#p6{
+    background-color: #3457a2;
 }
 
-.opcao5{
-    width: 100px;
-    height: 100px;
-    background-color: black;
-    border: 1px solid black;
-    align-items: center;
-    border-radius: 5%;
-    color: var(--color-white);
-    font-weight: bold;
-}
-.opcao6{
-    width: 100px;
-    height: 100px;
-    background-color: #3457a2;
-    border: 1px solid black;
-    align-items: center;
-    border-radius: 5%;
-    color: var(--color-white);
-    font-weight: bold;
-}
+
 
 
 .content>footer.d1 {
@@ -188,21 +157,6 @@ body{
         margin-left: -100vw;
     }
     .opcao1{
-        margin: 20px;
-    }
-    .opcao2{
-        margin: 20px;
-    }
-    .opcao3{
-        margin: 20px;
-    }
-    .opcao4{
-        margin: 20px;
-    }
-    .opcao5{
-        margin: 20px;
-    }
-    .opcao6{
         margin: 20px;
     }
     .content{
